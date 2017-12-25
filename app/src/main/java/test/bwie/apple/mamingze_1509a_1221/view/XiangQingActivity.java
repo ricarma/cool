@@ -57,6 +57,7 @@ public class XiangQingActivity extends AppCompatActivity implements XiangQingVie
                 startActivity(it);
             }
         });
+        //good
         Intent intent = getIntent();
         String pid = intent.getStringExtra("pid");
         String uid = intent.getStringExtra("uid");
