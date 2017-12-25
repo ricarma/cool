@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.bwie.apple.mamingze_1509a_1221.view.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:src="@drawable/taobao" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="手机号/会员号/邮箱" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/et_name"
+        android:layout_below="@+id/et_name"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:password="true"
+        android:inputType="textPersonName"
+        android:hint="请输入密码" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/et_pass"
+        android:layout_below="@+id/et_pass"
+        android:text="忘记密码" />
+
+    <TextView
+        android:id="@+id/tv_zc"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignEnd="@+id/et_pass"
+        android:text="新用户注册" />
+
+    <ImageView
+        android:id="@+id/mqq"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mqq" />
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_zc"
+        android:layout_centerHorizontal="true"
+        android:background="#f47920"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:text="登录" />
+</RelativeLayout>
